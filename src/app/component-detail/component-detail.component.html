@@ -1,0 +1,29 @@
+<h1 class="animate__animated animate__bounce text-center p-5">PEC 5</h1>
+
+<div class="d-flex justify-content-center  ">
+  <div class="card text-center animate__animated animate__bounceIn animate__slower" style="width: 18rem;">
+    <img *ngIf="card" [src]="card.largeImageURL" class="card-img-top animate__animated animate__zoomInDown animate__slower" alt="{{card.user}}">
+    <div class="card-body d-flex flex-column align-items-center">
+      <h5 class="card-title">{{card?.user}}</h5>
+      <p class="card-text">
+        <strong>ID:</strong> {{card?.id}}<br>
+        <strong>Mida:</strong> {{card?.imageWidth}} x {{card?.imageHeight}}<br>
+        <a [href]="card?.pageURL" target="_blank">Visita la pàgina</a>
+      </p>
+
+      <div [ngClass]="displayClass" class="progress-container mt-3">
+        <div class="mat-progress-bar">
+          <div [ngClass]="setProgressColor()" class="mat-progress-bar-primary"></div>
+        </div>
+        <div class="progress-value mt-2">{{progress}}%</div>
+      </div>
+
+      <div class="displayFlex mt-3">
+        <button mat-raised-button color="primary" (click)="goBack()">Tornar</button>
+        <button mat-raised-button color="accent" class="mt-2" (click)="toggleDisplay()">
+          <fa-icon [icon]="toggleIcon"></fa-icon>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

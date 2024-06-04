@@ -1,0 +1,86 @@
+@import "~animate.css/animate.min.css";
+
+.card {
+  background-color: #404040;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img-top {
+  animation-duration: 2s;
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.displayNone {
+  display: none;
+}
+
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.progress-container {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.mat-progress-bar {
+  height: 30px !important; 
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.mat-progress-bar-primary {
+  height: 100%;
+  width: 0;
+}
+
+.progress-value {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.red {
+  background-color: red !important;
+}
+
+.orange {
+  background-color: orange !important;
+}
+
+.yellow {
+  background-color: yellow !important;
+}
+
+.blue {
+  background-color: blue !important;
+}
+
+.green {
+  background-color: green !important;
+}
