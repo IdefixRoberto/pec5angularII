@@ -64,3 +64,8 @@
   .btn {
     margin-left: 6px;
   }
+
+  .card-img-top{
+    width: 100%;
+    height: auto;
+  }
