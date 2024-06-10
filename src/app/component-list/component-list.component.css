@@ -68,11 +68,11 @@ button {
 .card-img-top {
   width: 25vw;
   height: auto;
-  aspect-ratio: 2/3;
+  aspect-ratio: 2/2;
 }
 
 .textos-cards{
-  font-size: 1vw !important;
+  font-size: 1rem !important;
   font-family: 'Courier New', Courier, monospace;
 }
 
