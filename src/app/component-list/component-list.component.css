@@ -70,3 +70,8 @@ button {
   height: auto;
   aspect-ratio: 2/3;
 }
+
+.textos-cards{
+  font-size: 1vw;
+  font-family: 'Courier New', Courier, monospace;
+}
