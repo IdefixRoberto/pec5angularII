@@ -73,11 +73,6 @@ button {
   width: 20vw;
   height: 20vw;
   aspect-ratio: auto;
-
-  @media (max-width: 600px) {
-    width: 30vw;
-    height: 30vw;
-  }
 }
 
 .textos-cards{
