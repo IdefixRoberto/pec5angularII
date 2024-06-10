@@ -67,6 +67,8 @@ button {
 
 .btn {
   margin-left: 6px;
+
+
 }
 
 .card-img-top {
@@ -76,7 +78,7 @@ button {
 
   @media (max-width: 600px) {
     width: 15vw;
-    height: auto;
+    height: 15vw;
   }
 }
 
