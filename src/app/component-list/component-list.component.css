@@ -78,7 +78,8 @@ button {
 
   @media (max-width: 600px) {
     width: 15vw;
-    height: 15vw;
+    height: auto;
+    aspect-ratio: 2/2;
   }
 }
 
