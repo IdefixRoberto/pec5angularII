@@ -70,8 +70,8 @@ button {
 }
 
 .card-img-top {
-  width: 25vw;
-  height: 25vw;
+  width: 20vw;
+  height: 20vw;
   aspect-ratio: auto;
 
   @media (max-width: 600px) {
