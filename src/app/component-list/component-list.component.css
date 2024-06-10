@@ -75,7 +75,8 @@ button {
   aspect-ratio: 2/2;
 
   @media (max-width: 600px) {
-    width: auto;
+    width: 50vw;
+    height: 50vw;
     aspect-ratio: auto;
   }
 }
