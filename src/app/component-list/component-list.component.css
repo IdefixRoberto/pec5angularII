@@ -75,3 +75,8 @@ button {
   font-size: 1vw;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.botons{
+  width: 200px !important;
+  height: 50px;
+}
