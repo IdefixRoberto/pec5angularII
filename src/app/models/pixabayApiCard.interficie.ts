@@ -5,7 +5,7 @@ export interface PixabayApiResponse {
     imageWidth: number;
     imageHeight: number;
     pageURL: string;
-    largeImageURL: string;
+    webformatURL: string;
   }[];
   total: number;
   totalHits: number;

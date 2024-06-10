@@ -15,7 +15,7 @@
 
 <div class="d-flex justify-content-center  ">
   <div class="card text-center animate__animated animate__bounceIn animate__slower" style="width: 18rem;">
-    <img *ngIf="card" [src]="card.largeImageURL" class="card-img-top animate__animated animate__zoomInDown animate__slower" alt="{{card.user}}">
+    <img *ngIf="card" [src]="card.webformatURL" class="card-img-top animate__animated animate__zoomInDown animate__slower" alt="{{card.user}}">
     <div class="card-body d-flex flex-column align-items-center">
       <h5 class="card-title">{{card?.user}}</h5>
       <p class="card-text">

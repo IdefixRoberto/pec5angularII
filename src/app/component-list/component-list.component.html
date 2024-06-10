@@ -29,7 +29,7 @@
           <div *ngFor="let card of cards" class="col-md-4 mb-4">
             <div class="card">
               <picture>
-                <img [src]="card.largeImageURL" class="card-img-top" alt="{{card.user}}">
+                <img [src]="card.webformatURL" class="card-img-top" alt="{{card.user}}">
               </picture>
               <div class="card-body text-center mb-4">
                 <h5 class="card-title">{{card.user}}</h5>
@@ -48,7 +48,7 @@
         <ul class="list-group listgray" [@listAnimation]="cards.length">
           <li *ngFor="let card of cards" class="list-group-item card-item">
             <p> {{card.id}} - {{card.user}} </p>
-            <img [src]="card.largeImageURL" class="card-img" alt="{{card.user}}">
+            <img [src]="card.webformatURL" class="card-img" alt="{{card.user}}">
             <button class="btn btn-primary" [routerLink]="['/detail', card.id]">Detalls</button>
           </li>
         </ul>
